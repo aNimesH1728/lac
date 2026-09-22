@@ -1,0 +1,9 @@
+fastapi 
+uvicorn 
+langchain 
+langgraph 
+langchain-anthropic 
+chromadb 
+sentence-transformers 
+langdetect 
+pypdf
