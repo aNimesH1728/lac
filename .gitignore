@@ -2,5 +2,6 @@ venv/
 __pycache__/
 *.pyc
 .env
-data
+data/raw/*.pdf
+data/raw/*.html
 chroma_db/
