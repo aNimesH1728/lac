@@ -1,0 +1,211 @@
+text,label
+When is the mid semester examination?,faq
+What are the holidays this year?,faq
+How do I apply for a leave of absence?,faq
+What is the anti-ragging policy?,faq
+When does the semester registration close?,faq
+What documents do I need for a transcript?,faq
+Where can I find the academic calendar?,faq
+What are the hostel rules?,faq
+How do I get a clearance certificate?,faq
+What is the fee payment deadline?,faq
+Tell me about the foreign travel form process,faq
+What is the grievance redressal procedure?,faq
+When is the end semester exam?,faq
+How many credits do I need to graduate?,faq
+What's my attendance in Database Management Systems?,personal
+Can you show me my current CGPA?,personal
+How many classes have I missed this semester?,personal
+What are my marks in the last exam?,personal
+Show me my attendance percentage,personal
+What is my roll number registered as?,personal
+Have I cleared all my backlogs?,personal
+What courses am I currently registered in?,personal
+Can I see my semester grade report?,personal
+Is my hostel fee paid?,personal
+Check my marks in Operating Systems,personal
+Am I eligible to sit for the exam based on my attendance?,personal
+What is my current semester GPA?,personal
+What's my attendance right now?,personal
+I want to file a complaint about my hostel room,complaint
+There is a problem with the mess food quality,complaint
+My complaint about the WiFi in the hostel is not resolved,complaint
+I need to raise a grievance against a faculty member,complaint
+The washroom in my hostel block is broken and needs repair,complaint
+I want to lodge a complaint about noise in the hostel,complaint
+Report an issue with the library timings,complaint
+I want to file a disciplinary complaint,complaint
+There's an issue with my ID card and no one is helping,complaint
+I want to complain about the canteen hygiene,complaint
+Raise an issue about broken furniture in my room,complaint
+The hostel water supply has been cut off for days please fix it,complaint
+I want to complain about a rude staff member at the admin office,complaint
+The classroom projector has been broken for weeks please repair it,complaint
+I want to report an incident of ragging,emergency
+A senior is threatening and harassing me,emergency
+I feel unsafe in my hostel right now,emergency
+My roommate keeps threatening me and I don't know what to do,emergency
+I am being bullied by seniors and need help immediately,emergency
+There is a fire in the hostel building,emergency
+Someone is hurt and needs urgent medical help,emergency
+I am having thoughts of hurting myself,emergency
+I feel extremely low and don't know who to talk to,emergency
+I witnessed a serious ragging incident just now,emergency
+I need urgent help this can't wait,emergency
+A junior student is being forced to do something against their will,emergency
+I am scared to go back to my hostel room,emergency
+Please help someone collapsed near the hostel,emergency
+What's the weather like today?,out_of_scope
+Tell me a joke,out_of_scope
+Who won the cricket match yesterday?,out_of_scope
+What's the capital of France?,out_of_scope
+Can you write me a poem about love?,out_of_scope
+Who is the Prime Minister of India?,out_of_scope
+What's 15 times 23?,out_of_scope
+Recommend a good movie to watch,out_of_scope
+Translate good morning into French,out_of_scope
+What's the meaning of life?,out_of_scope
+Sing me a song,out_of_scope
+How do I cook pasta?,out_of_scope
+What's trending on social media today?,out_of_scope
+Can you help me plan a birthday party?,out_of_scope
+मध्य सेमेस्टर परीक्षा कब है?,faq
+इस साल छुट्टियां कब हैं?,faq
+मैं अवकाश के लिए आवेदन कैसे करूं?,faq
+रैगिंग विरोधी नीति क्या है?,faq
+सेमेस्टर पंजीकरण कब बंद होता है?,faq
+ट्रांसक्रिप्ट के लिए मुझे कौन से दस्तावेज़ चाहिए?,faq
+शैक्षणिक कैलेंडर कहाँ मिलेगा?,faq
+छात्रावास के नियम क्या हैं?,faq
+क्लीयरेंस सर्टिफिकेट कैसे प्राप्त करें?,faq
+फीस भुगतान की अंतिम तारीख क्या है?,faq
+विदेश यात्रा फॉर्म की प्रक्रिया क्या है?,faq
+शिकायत निवारण प्रक्रिया क्या है?,faq
+अंतिम सेमेस्टर परीक्षा कब है?,faq
+स्नातक होने के लिए कितने क्रेडिट चाहिए?,faq
+डेटाबेस मैनेजमेंट सिस्टम में मेरी उपस्थिति क्या है?,personal
+मेरा वर्तमान सीजीपीए दिखाओ,personal
+इस सेमेस्टर मैंने कितनी कक्षाएं छोड़ी हैं?,personal
+पिछली परीक्षा में मेरे अंक क्या हैं?,personal
+मेरी उपस्थिति प्रतिशत दिखाओ,personal
+मेरा रोल नंबर क्या पंजीकृत है?,personal
+क्या मेरे सभी बैकलॉग क्लियर हो गए हैं?,personal
+मैं वर्तमान में किन कोर्स में पंजीकृत हूं?,personal
+मुझे मेरा सेमेस्टर ग्रेड रिपोर्ट दिखाओ,personal
+क्या मेरी छात्रावास फीस जमा हो गई है?,personal
+ऑपरेटिंग सिस्टम में मेरे अंक जांचो,personal
+क्या मैं अपनी उपस्थिति के आधार पर परीक्षा देने के योग्य हूं?,personal
+मेरा वर्तमान सेमेस्टर जीपीए क्या है?,personal
+मेरी उपस्थिति क्या है?,personal
+मुझे अपने छात्रावास के कमरे के बारे में शिकायत दर्ज करनी है,complaint
+मेस के खाने की गुणवत्ता में समस्या है,complaint
+छात्रावास में वाईफाई की मेरी शिकायत अभी तक हल नहीं हुई है,complaint
+मुझे एक शिक्षक के खिलाफ शिकायत दर्ज करनी है,complaint
+मेरे छात्रावास ब्लॉक का बाथरूम टूटा है कृपया मरम्मत करें,complaint
+मुझे छात्रावास में शोर की शिकायत दर्ज करनी है,complaint
+पुस्तकालय के समय के बारे में समस्या की रिपोर्ट करें,complaint
+मुझे अनुशासनात्मक शिकायत दर्ज करनी है,complaint
+मेरे आईडी कार्ड में समस्या है और कोई मदद नहीं कर रहा,complaint
+मुझे कैंटीन की सफाई के बारे में शिकायत करनी है,complaint
+मेरे कमरे में टूटे हुए फर्नीचर की शिकायत दर्ज करें,complaint
+छात्रावास में कई दिनों से पानी की आपूर्ति बंद है कृपया ठीक करें,complaint
+प्रशासन कार्यालय में एक कर्मचारी के व्यवहार की शिकायत करनी है,complaint
+कक्षा का प्रोजेक्टर कई हफ्तों से खराब है कृपया ठीक करें,complaint
+मुझे रैगिंग की घटना की रिपोर्ट करनी है,emergency
+एक सीनियर मुझे धमका और परेशान कर रहा है,emergency
+मुझे अभी अपने छात्रावास में असुरक्षित महसूस हो रहा है,emergency
+मेरा रूममेट मुझे लगातार धमका रहा है मुझे समझ नहीं आ रहा क्या करूं,emergency
+सीनियर्स मुझे परेशान कर रहे हैं मुझे तुरंत मदद चाहिए,emergency
+छात्रावास की इमारत में आग लगी है,emergency
+किसी को चोट लगी है उसे तुरंत चिकित्सा सहायता चाहिए,emergency
+मुझे खुद को नुकसान पहुंचाने के विचार आ रहे हैं,emergency
+मुझे बहुत उदास महसूस हो रहा है और समझ नहीं आ रहा किससे बात करूं,emergency
+मैंने अभी एक गंभीर रैगिंग की घटना देखी है,emergency
+मुझे तुरंत मदद चाहिए यह इंतजार नहीं कर सकता,emergency
+एक जूनियर छात्र को जबरदस्ती कुछ करने के लिए मजबूर किया जा रहा है,emergency
+मुझे अपने छात्रावास के कमरे में वापस जाने से डर लग रहा है,emergency
+कृपया मदद करें छात्रावास के पास कोई बेहोश हो गया है,emergency
+आज मौसम कैसा है?,out_of_scope
+मुझे एक चुटकुला सुनाओ,out_of_scope
+कल का क्रिकेट मैच किसने जीता?,out_of_scope
+फ्रांस की राजधानी क्या है?,out_of_scope
+मुझे प्यार पर एक कविता लिखकर दो,out_of_scope
+भारत के प्रधानमंत्री कौन हैं?,out_of_scope
+15 गुणा 23 कितना होता है?,out_of_scope
+देखने के लिए एक अच्छी फिल्म सुझाओ,out_of_scope
+सुप्रभात को फ्रेंच में अनुवाद करो,out_of_scope
+जीवन का अर्थ क्या है?,out_of_scope
+मुझे एक गाना सुनाओ,out_of_scope
+पास्ता कैसे बनाएं?,out_of_scope
+आज सोशल मीडिया पर क्या ट्रेंड कर रहा है?,out_of_scope
+क्या तुम मुझे जन्मदिन की पार्टी की योजना बनाने में मदद कर सकते हो?,out_of_scope
+ମଧ୍ୟ ସେମିଷ୍ଟର ପରୀକ୍ଷା କେବେ ହେବ?,faq
+ଏ ବର୍ଷ ଛୁଟି କେବେ ଅଛି?,faq
+ମୁଁ ଛୁଟି ପାଇଁ କିପରି ଆବେଦନ କରିବି?,faq
+ରାଗିଂ ବିରୋଧୀ ନୀତି କଣ?,faq
+ସେମିଷ୍ଟର ପଞ୍ଜୀକରଣ କେବେ ବନ୍ଦ ହୁଏ?,faq
+ଟ୍ରାନ୍ସକ୍ରିପ୍ଟ ପାଇଁ ମୋତେ କେଉଁ କାଗଜପତ୍ର ଦରକାର?,faq
+ଏକାଡେମିକ କ୍ୟାଲେଣ୍ଡର କେଉଁଠାରେ ମିଳିବ?,faq
+ହଷ୍ଟେଲ ନିୟମ କଣ?,faq
+କ୍ଲିଅରାନ୍ସ ସାର୍ଟିଫିକେଟ୍ କିପରି ପାଇବି?,faq
+ଫି ଦେବାର ଶେଷ ତାରିଖ କଣ?,faq
+ବିଦେଶ ଯାତ୍ରା ଫର୍ମ ପ୍ରକ୍ରିୟା କଣ?,faq
+ଅଭିଯୋଗ ନିରାକରଣ ପ୍ରକ୍ରିୟା କଣ?,faq
+ଶେଷ ସେମିଷ୍ଟର ପରୀକ୍ଷା କେବେ ହେବ?,faq
+ସ୍ନାତକ ହେବାକୁ ମୋତେ କେତେ କ୍ରେଡିଟ୍ ଦରକାର?,faq
+ଡାଟାବେସ୍ ମ୍ୟାନେଜମେଣ୍ଟ ସିଷ୍ଟମରେ ମୋର ଉପସ୍ଥିତି କେତେ?,personal
+ମୋର ବର୍ତ୍ତମାନ CGPA କେତେ ଦେଖାଅ,personal
+ଏହି ସେମିଷ୍ଟରରେ ମୁଁ କେତେ କ୍ଲାସ ମିସ୍ କରିଛି?,personal
+ଗତ ପରୀକ୍ଷାରେ ମୋର ନମ୍ବର କେତେ?,personal
+ମୋର ଉପସ୍ଥିତି ପ୍ରତିଶତ ଦେଖାଅ,personal
+ମୋର ରୋଲ ନମ୍ବର କଣ ପଞ୍ଜୀକୃତ ଅଛି?,personal
+ମୋର ସବୁ ବ୍ୟାକଲଗ୍ କ୍ଲିଅର ହୋଇଛି କି?,personal
+ମୁଁ ବର୍ତ୍ତମାନ କେଉଁ କୋର୍ସରେ ପଞ୍ଜୀକୃତ ଅଛି?,personal
+ମୋର ସେମିଷ୍ଟର ଗ୍ରେଡ୍ ରିପୋର୍ଟ ଦେଖାଅ,personal
+ମୋର ହଷ୍ଟେଲ ଫି ଦିଆ ହୋଇଛି କି?,personal
+ଅପରେଟିଂ ସିଷ୍ଟମରେ ମୋର ନମ୍ବର ଯାଞ୍ଚ କର,personal
+ମୋର ଉପସ୍ଥିତି ଆଧାରରେ ମୁଁ ପରୀକ୍ଷା ଦେବାକୁ ଯୋଗ୍ୟ କି?,personal
+ମୋର ବର୍ତ୍ତମାନ ସେମିଷ୍ଟର GPA କେତେ?,personal
+ମୋର ଉପସ୍ଥିତି କେତେ?,personal
+ମୁଁ ମୋର ହଷ୍ଟେଲ କୋଠରୀ ବିଷୟରେ ଅଭିଯୋଗ ଦାଖଲ କରିବାକୁ ଚାହୁଁଛି,complaint
+ମେସ୍ ଖାଦ୍ୟର ଗୁଣବତ୍ତାରେ ସମସ୍ୟା ଅଛି,complaint
+ହଷ୍ଟେଲରେ ୱାଇଫାଇ ବିଷୟରେ ମୋର ଅଭିଯୋଗ ଏପର୍ଯ୍ୟନ୍ତ ସମାଧାନ ହୋଇନାହିଁ,complaint
+ମୁଁ ଜଣେ ଶିକ୍ଷକଙ୍କ ବିରୁଦ୍ଧରେ ଅଭିଯୋଗ ଦାଖଲ କରିବାକୁ ଚାହୁଁଛି,complaint
+ମୋର ହଷ୍ଟେଲ ବ୍ଲକ୍ ର ବାଥରୁମ ଭାଙ୍ଗିଯାଇଛି ଦୟାକରି ମରାମତି କରନ୍ତୁ,complaint
+ହଷ୍ଟେଲରେ ଗୋଳମାଳ ବିଷୟରେ ମୁଁ ଅଭିଯୋଗ ଦାଖଲ କରିବାକୁ ଚାହୁଁଛି,complaint
+ଲାଇବ୍ରେରୀ ସମୟ ବିଷୟରେ ସମସ୍ୟାର ରିପୋର୍ଟ କରନ୍ତୁ,complaint
+ମୁଁ ଏକ ଶୃଙ୍ଖଳାଗତ ଅଭିଯୋଗ ଦାଖଲ କରିବାକୁ ଚାହୁଁଛି,complaint
+ମୋର ଆଇଡି କାର୍ଡରେ ସମସ୍ୟା ଅଛି ଏବଂ କେହି ସାହାଯ୍ୟ କରୁନାହାଁନ୍ତି,complaint
+ମୁଁ କ୍ୟାଣ୍ଟିନ ସଫେଇ ବିଷୟରେ ଅଭିଯୋଗ କରିବାକୁ ଚାହୁଁଛି,complaint
+ମୋର କୋଠରୀରେ ଭଙ୍ଗା ଆସବାବପତ୍ର ବିଷୟରେ ଅଭିଯୋଗ ଦାଖଲ କର,complaint
+ହଷ୍ଟେଲରେ ଅନେକ ଦିନ ଧରି ପାଣି ଯୋଗାଣ ବନ୍ଦ ଅଛି ଦୟାକରି ଠିକ୍ କରନ୍ତୁ,complaint
+ପ୍ରଶାସନ କାର୍ଯ୍ୟାଳୟର ଜଣେ କର୍ମଚାରୀଙ୍କ ବ୍ୟବହାର ବିଷୟରେ ଅଭିଯୋଗ କରିବାକୁ ଚାହୁଁଛି,complaint
+କ୍ଲାସରୁମ୍ ପ୍ରୋଜେକ୍ଟର ଅନେକ ସପ୍ତାହ ଧରି ଖରାପ ଅଛି ଦୟାକରି ମରାମତି କରନ୍ତୁ,complaint
+ମୁଁ ଏକ ରାଗିଂ ଘଟଣା ରିପୋର୍ଟ କରିବାକୁ ଚାହୁଁଛି,emergency
+ଜଣେ ସିନିୟର ମୋତେ ଧମକ ଏବଂ ହଇରାଣ କରୁଛନ୍ତି,emergency
+ମୁଁ ଏବେ ମୋର ହଷ୍ଟେଲରେ ଅସୁରକ୍ଷିତ ଅନୁଭବ କରୁଛି,emergency
+ମୋର ରୁମମେଟ୍ ମୋତେ ଲଗାତାର ଧମକ ଦେଉଛି ମୁଁ କଣ କରିବି ବୁଝି ପାରୁନାହିଁ,emergency
+ସିନିୟରମାନେ ମୋତେ ହଇରାଣ କରୁଛନ୍ତି ମୋତେ ତୁରନ୍ତ ସାହାଯ୍ୟ ଦରକାର,emergency
+ହଷ୍ଟେଲ ବିଲ୍ଡିଂରେ ନିଆଁ ଲାଗିଛି,emergency
+କେହି ଆହତ ହୋଇଛନ୍ତି ତୁରନ୍ତ ଚିକିତ୍ସା ସାହାଯ୍ୟ ଦରକାର,emergency
+ମୋତେ ନିଜକୁ କ୍ଷତି ପହଞ୍ଚାଇବାର ଚିନ୍ତା ଆସୁଛି,emergency
+ମୁଁ ବହୁତ ଦୁଃଖୀ ଅନୁଭବ କରୁଛି ଏବଂ କାହା ସହିତ କଥା ହେବି ବୁଝି ପାରୁନାହିଁ,emergency
+ମୁଁ ଏବେ ଏକ ଗମ୍ଭୀର ରାଗିଂ ଘଟଣା ଦେଖିଛି,emergency
+ମୋତେ ତୁରନ୍ତ ସାହାଯ୍ୟ ଦରକାର ଏହା ଅପେକ୍ଷା କରିପାରିବ ନାହିଁ,emergency
+ଜଣେ ଜୁନିୟର ଛାତ୍ରକୁ ଜବରଦସ୍ତ କିଛି କରିବାକୁ ବାଧ୍ୟ କରାଯାଉଛି,emergency
+ମୁଁ ମୋର ହଷ୍ଟେଲ କୋଠରୀକୁ ଫେରିବାକୁ ଡରୁଛି,emergency
+ଦୟାକରି ସାହାଯ୍ୟ କରନ୍ତୁ ହଷ୍ଟେଲ ପାଖରେ କେହି ଅଚେତ ହୋଇପଡିଛନ୍ତି,emergency
+ଆଜି ପାଗ କେମିତି ଅଛି?,out_of_scope
+ମୋତେ ଏକ ପରିହାସ କୁହ,out_of_scope
+ଗତକାଲି କ୍ରିକେଟ୍ ମ୍ୟାଚ୍ କିଏ ଜିତିଲା?,out_of_scope
+ଫ୍ରାନ୍ସର ରାଜଧାନୀ କଣ?,out_of_scope
+ମୋତେ ପ୍ରେମ ଉପରେ ଏକ କବିତା ଲେଖି ଦିଅ,out_of_scope
+ଭାରତର ପ୍ରଧାନମନ୍ତ୍ରୀ କିଏ?,out_of_scope
+15 ଗୁଣ 23 କେତେ ହେବ?,out_of_scope
+ଦେଖିବା ପାଇଁ ଏକ ଭଲ ସିନେମା ପରାମର୍ଶ ଦିଅ,out_of_scope
+ଶୁଭ ସକାଳ କୁ ଫ୍ରେଞ୍ଚରେ ଅନୁବାଦ କର,out_of_scope
+ଜୀବନର ଅର୍ଥ କଣ?,out_of_scope
+ମୋତେ ଏକ ଗୀତ ଗାଅ,out_of_scope
+ପାସ୍ତା କିପରି ରାନ୍ଧିବେ?,out_of_scope
+ଆଜି ସୋସିଆଲ ମିଡିଆରେ କଣ ଟ୍ରେଣ୍ଡ କରୁଛି?,out_of_scope
+ତୁମେ ମୋତେ ଜନ୍ମଦିନ ପାର୍ଟି ଯୋଜନା କରିବାରେ ସାହାଯ୍ୟ କରିପାରିବ କି?,out_of_scope

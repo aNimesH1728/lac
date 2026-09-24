@@ -1,6 +1,9 @@
 import json
 import chromadb
+from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
+
+load_dotenv()
 
 CHUNKS_FILE = "data/processed/chunks.json"
 CHROMA_DIR = "chroma_db"
@@ -27,7 +30,6 @@ def build_vector_store():
     embeddings = model.encode(texts, show_progress_bar=True, batch_size=32)
 
     client = chromadb.PersistentClient(path=CHROMA_DIR)
-    
     try:
         client.delete_collection(COLLECTION_NAME)
     except Exception:
