@@ -1,7 +1,8 @@
 import json
 import chromadb
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
+
+from embeddings import get_embedder
 
 load_dotenv()
 
@@ -11,6 +12,9 @@ COLLECTION_NAME = "college_docs"
 
 MODEL_NAME = "intfloat/multilingual-e5-base"
 
+_client = None
+_collection = None
+
 
 def load_chunks() -> list:
     with open(CHUNKS_FILE, "r", encoding="utf-8") as f:
@@ -19,7 +23,7 @@ def load_chunks() -> list:
 
 def build_vector_store():
     print(f"Loading embedding model: {MODEL_NAME} (first run downloads it, ~1GB)")
-    model = SentenceTransformer(MODEL_NAME)
+    model = get_embedder()
 
     chunks = load_chunks()
     print(f"Loaded {len(chunks)} chunks to embed")
@@ -44,13 +48,25 @@ def build_vector_store():
     )
 
     print(f"Stored {collection.count()} chunks in ChromaDB at ./{CHROMA_DIR}")
+
+    global _client, _collection
+    _client = client
+    _collection = collection
+
     return collection
 
 
+def _get_collection():
+    global _client, _collection
+    if _collection is None:
+        _client = chromadb.PersistentClient(path=CHROMA_DIR)
+        _collection = _client.get_collection(COLLECTION_NAME)
+    return _collection
+
+
 def retrieve_chunks(query: str, n_results: int = 3) -> list:
-    model = SentenceTransformer(MODEL_NAME)
-    client = chromadb.PersistentClient(path=CHROMA_DIR)
-    collection = client.get_collection(COLLECTION_NAME)
+    model = get_embedder()
+    collection = _get_collection()
 
     query_embedding = model.encode(["query: " + query]).tolist()
 

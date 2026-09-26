@@ -2,16 +2,19 @@ import csv
 import joblib
 import numpy as np
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
+
+from embeddings import get_embedder
 
 load_dotenv()
 
 DATA_FILE = "data/intents.csv"
 MODEL_FILE = "app/intent_model.joblib"
-EMBED_MODEL_NAME = "intfloat/multilingual-e5-base"  
+EMBED_MODEL_NAME = "intfloat/multilingual-e5-base"
+
+_clf_cache = None
 
 
 def load_data():
@@ -28,7 +31,7 @@ def train():
     texts, labels = load_data()
     print(f"Loaded {len(texts)} labeled examples")
 
-    embed_model = SentenceTransformer(EMBED_MODEL_NAME)
+    embed_model = get_embedder()
 
     X_train, X_test, y_train, y_test = train_test_split(
         texts, labels, test_size=0.25, random_state=42, stratify=labels
@@ -54,10 +57,17 @@ def train():
 
 
 def predict_intent(query: str, embed_model=None, clf=None) -> str:
-    if embed_model is None or clf is None:
-        embed_model = SentenceTransformer(EMBED_MODEL_NAME)
-        bundle = joblib.load(MODEL_FILE)
-        clf = bundle["classifier"]
+    global _clf_cache
+
+    if embed_model is None:
+        embed_model = get_embedder()
+
+    if clf is None:
+        if _clf_cache is None:
+            bundle = joblib.load(MODEL_FILE)
+            _clf_cache = bundle["classifier"]
+        clf = _clf_cache
+
     vec = embed_model.encode(["query: " + query])
     return clf.predict(vec)[0]
 
